@@ -1,0 +1,11 @@
+,n_inputs,variance_explained_pc1
+progressive_passing,4.0,0.422
+progressive_carrying,3.0,0.612
+possession_retention,3.0,0.425
+chance_creation,2.0,0.75
+box_presence,1.0,
+pressing_intensity,5.0,0.405
+individual_defending,2.0,0.645
+aerial_play,2.0,0.643
+crossing,2.0,0.701
+goalkeeper_distribution,3.0,0.665

@@ -1,0 +1,151 @@
+================================================================================
+BIBLIOGRAPHY (APA 7th edition)
+Knowledge-Informed Playing Style Modelling & Explainable Manager-Player
+Compatibility — MIAD Final Project
+================================================================================
+
+Notes on this file:
+- Mirrors Section 10 (Bibliografia) of report/memoria.md, organised into the
+  same three groups in which the sources were actually used.
+- Web sources were all accessed 2026-08-10 (retrieval date given where APA
+  requires one for changing online content).
+- Where a field genuinely does not exist (e.g. an undated webpage, a supplied
+  PDF with no stated venue), "(n.d.)" is used honestly rather than guessed.
+
+--------------------------------------------------------------------------------
+1. ACADEMIC LITERATURE
+(7 papers read in full and synthesised into the literature review,
+ outputs/literature/literature_review_synthesis.md)
+--------------------------------------------------------------------------------
+
+Baattite, A. (2023). Machine learning-based football tactic and style analysis
+    [Capstone design final report, School of Science and Engineering, Al
+    Akhawayn University].
+
+Bolin, N., & Vesterlind, E. (2025, June). From patterns to playbooks:
+    Identifying offensive and defensive team playing styles from possession
+    chains with machine learning and its possible practical applications in
+    management of football teams [Master's thesis, Uppsala University,
+    Faculty of Science and Technology]. (UPTEC I 25002)
+
+Gu, L., Wang, W., Plakias, S., & Zhang, S. (2025). Playing style identification
+    in team sports: A systematic review from statistical dimensionality
+    reduction to unsupervised machine learning. International Journal of
+    Sports Science & Coaching, 1-20.
+    https://doi.org/10.1177/17479541251372586
+
+Plakias, S., Armatas, V., Mprotsis, T., Kyranoudis, A., Gu, L., Xylomenos, F.,
+    & Michailidis, Y. (2025). What playing styles best represent the overall
+    tactical identity of European soccer teams? Journal of Physical Education
+    and Sport, 25(11), 2249-2257. https://doi.org/10.7752/jpes.2025.11248
+    [The project's primary academic anchor: source of the validated
+    19-dimension playing-style taxonomy.]
+
+Tang, Z., Wang, X., & Zhang, S. (n.d.). Clustering football game situations via
+    deep representation learning [Unpublished manuscript]. (Venue, year and
+    DOI not stated in the supplied PDF.)
+
+Wang, Z., Veličković, P., Hennes, D., Tomašev, N., Prince, L., Kaisers, M.,
+    Bachrach, Y., Elie, R., Wenliang, L. K., Piccinini, F., Spearman, W.,
+    Graham, I., Connor, J., Yang, Y., Recasens, A., Khan, M., Beauguerlange,
+    N., Sprechmann, P., Moreno, P., ... Tuyls, K. (2023, October). TacticAI:
+    An AI assistant for football tactics. arXiv.
+    https://arxiv.org/abs/2310.10553
+
+Zhong, Y., Xu, Y., Zhu, K., Diaz-Cidoncha Garcia, J., Gómez Ruano, M. Á., &
+    Yi, Q. (2026). Data-driven classification of playing styles and match
+    outcome prediction in UEFA Champions League teams. Biology of Sport, 43,
+    575-586. https://doi.org/10.5114/biolsport.2026.154944
+
+1.1 Sources cited by the papers above, identified but not read in full
+    (flagged rather than silently omitted):
+
+Cintia, P., & Pappalardo, L. (2021). Coach2vec: Autoencoding the playing style
+    of soccer coaches. arXiv. https://arxiv.org/abs/2106.15444
+
+Plakias, S., Kokkotis, C., Moustakidis, S., Tsatalas, T., Papalexi, M.,
+    Kasioura, C., Giakas, G., & Tsaopoulos, D. (2023). Identifying playing
+    styles of European soccer teams during the key moments of the game.
+    Journal of Physical Education and Sport, 23(4), 878-890.
+    https://doi.org/10.7752/jpes.2023.04111
+    [Original source of the 19 latent variables reused by Plakias et al.
+    (2025).]
+
+Rein, R., & Memmert, D. (2016). Big data and tactical analysis in elite soccer:
+    Future challenges and opportunities for sports science. SpringerPlus, 5,
+    1410. https://doi.org/10.1186/s40064-016-3108-2
+
+--------------------------------------------------------------------------------
+2. MANAGER TENURE AND TACTICAL PHILOSOPHY SOURCES
+(Representative sample of the 77 individually attributed sources used to
+ build the verified tenure table and the qualitative manager research; the
+ full numbered list is in data/external/manager_tenures.md §4 and
+ outputs/football_knowledge/manager_philosophy_hypotheses.md)
+--------------------------------------------------------------------------------
+
+Coaches' Voice. (2021). Pep Guardiola: Coach watch.
+    https://www.coachesvoice.com (Retrieved August 10, 2026)
+
+Coaches' Voice. (2026). The tactical evolution of Pep Guardiola's Manchester
+    City. https://www.coachesvoice.com (Retrieved August 10, 2026)
+
+Coaches' Voice. (n.d.). Roberto De Zerbi tactics and style of play.
+    https://www.coachesvoice.com (Retrieved August 10, 2026)
+
+Opta Analyst / The Analyst. (2019-2025). Data-confirmed statistical pieces on
+    Pep Guardiola's Manchester City tenure [Multiple articles].
+    https://theanalyst.com (Retrieved August 10, 2026)
+
+Perarnau, M. (n.d.). Pep Confidential [Serialised excerpts]. Marti Perarnau
+    Magazine. https://www.martiperarnau.com (Retrieved August 10, 2026)
+    [Source for Guardiola's juego de posicion framework.]
+
+SHfootball. (n.d.). Analysis of Roberto De Zerbi's goalkeeper and centre-back
+    build-up mechanism [Blog post]. Medium.
+    https://medium.com (Retrieved August 10, 2026)
+
+SoccerTutor.com. (n.d.). Analysis of Roberto De Zerbi's build-up structure.
+    https://www.soccertutor.com (Retrieved August 10, 2026)
+
+Spielverlagerung. (2016). Previewing Pep Guardiola's Manchester City reign.
+    https://spielverlagerung.com (Retrieved August 10, 2026)
+
+Spielverlagerung. (2017). Manchester City: Positional play analysis.
+    https://spielverlagerung.com (Retrieved August 10, 2026)
+
+Total Football Analysis. (2026). Tactical analysis pieces on Guardiola, Klopp
+    and De Zerbi [Multiple articles]. https://totalfootballanalysis.com
+    (Retrieved August 10, 2026)
+
+Wikipedia. (2026). Managerial statistics tables: Pep Guardiola; Jürgen Klopp;
+    Roberto De Zerbi. https://www.wikipedia.org (Retrieved August 10, 2026)
+    [Used for tenure dates; every entry cross-corroborated against club and
+    press sources, with every conflict explicitly resolved and documented in
+    data/external/manager_tenures.md §3.]
+
+--------------------------------------------------------------------------------
+3. DATA SOURCE DOCUMENTATION
+--------------------------------------------------------------------------------
+
+Mathien, H. (n.d.). European soccer database [Data set]. Kaggle.
+    https://www.kaggle.com/datasets/hugomathien/soccer
+    (Retrieved August 10, 2026) [Investigated as a possible historical
+    extension for the Bayern/Dortmund eras; found unsuitable — see
+    decision_log.md D-005.]
+
+soccerdata [Computer software]. (n.d.). PyPI.
+    https://pypi.org/project/soccerdata/ (Retrieved August 10, 2026)
+    [Tested for direct FBref/Understat access; insufficient on its own —
+    see outputs/audit/data_availability_matrix.md §6.]
+
+StatsBomb. (n.d.). StatsBomb open data [Data set]. GitHub.
+    https://github.com/statsbomb/open-data (Retrieved August 10, 2026)
+    [Competition and match manifests, event-level data, match-level manager
+    attribution; used as a separate, non-pooled evidence stream per
+    decision_log.md D-003.]
+
+Ziv, J. (n.d.). worldfootballR_data [Data set]. GitHub.
+    https://github.com/JaseZiv/worldfootballR_data
+    (Retrieved August 10, 2026) [Primary source: FBref/Opta match-level
+    advanced statistics mirror, fb_advanced_match_stats release — see
+    decision_log.md D-002.]

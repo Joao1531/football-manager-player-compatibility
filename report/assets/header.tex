@@ -1,0 +1,77 @@
+% Custom styling for the final report PDF.
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fontawesome5}
+\usepackage{eso-pic}
+\usepackage{tikz}
+\floatplacement{figure}{H}
+
+% ---------- colour palette ----------
+\definecolor{pitchgreen}{HTML}{0E4429}
+\definecolor{pitchgreenlight}{HTML}{1B7A4C}
+\definecolor{accentgold}{HTML}{C9A227}
+\definecolor{guardiolared}{HTML}{D62728}
+\definecolor{kloppblue}{HTML}{1F77B4}
+\definecolor{dezerbigreen}{HTML}{2CA02C}
+\definecolor{warmgrey}{HTML}{F4F1EA}
+\definecolor{softgrey}{HTML}{6B6B6B}
+
+% ---------- section styling ----------
+\titleformat{\section}
+  {\color{pitchgreen}\normalfont\Large\bfseries}
+  {\color{accentgold}\thesection\hspace{0.4em}}
+  {0em}
+  {}
+  [{\color{accentgold}\titlerule[1.2pt]}]
+\titlespacing*{\section}{0pt}{2.2em}{1em}
+
+\titleformat{\subsection}
+  {\color{pitchgreenlight}\normalfont\large\bfseries}
+  {\color{pitchgreenlight}\thesubsection\hspace{0.4em}}
+  {0em}
+  {}
+\titlespacing*{\subsection}{0pt}{1.6em}{0.8em}
+
+% ---------- header / footer ----------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.6pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhead[L]{\small\color{softgrey}Knowledge Informed Manager Player Compatibility}
+\fancyhead[R]{\small\color{softgrey}\thepage}
+\renewcommand{\headrule}{\color{accentgold}\hrule height 0.6pt \vspace{1mm}}
+
+% ---------- table of contents colour ----------
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\color{pitchgreen}\bfseries}
+\renewcommand{\cftsecpagefont}{\color{pitchgreen}}
+
+% ---------- coloured callout boxes ----------
+\newtcolorbox{warningbox}{
+  colback=accentgold!12, colframe=accentgold!70!black,
+  boxrule=1pt, arc=3pt, left=8pt, right=8pt, top=6pt, bottom=6pt,
+  breakable
+}
+\newtcolorbox{keyfinding}{
+  colback=pitchgreen!7, colframe=pitchgreen,
+  boxrule=1pt, arc=3pt, left=8pt, right=8pt, top=6pt, bottom=6pt,
+  breakable
+}
+
+% ---------- circular manager photo with a coloured ring, for the cover ----------
+\newcommand{\managerphoto}[2]{%
+\begin{tikzpicture}
+\begin{scope}
+\clip (0,0) circle (1.65cm);
+\node at (0,0) {\includegraphics[width=3.6cm]{#2}};
+\end{scope}
+\draw[#1, line width=3pt] (0,0) circle (1.65cm);
+\end{tikzpicture}}
+
+% ---------- link colour already handled by pandoc colorlinks ----------

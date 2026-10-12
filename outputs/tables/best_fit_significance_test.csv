@@ -1,0 +1,8 @@
+,value
+observed_rate,0.4206773618538324
+n,561.0
+bootstrap_ci_low,0.3778966131907308
+bootstrap_ci_high,0.46167557932263814
+bootstrap_se,0.0210300585419919
+empirical_chance_baseline,0.340324064171123
+p_value,0.0002
