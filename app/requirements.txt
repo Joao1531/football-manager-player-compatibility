@@ -1,0 +1,9 @@
+# Dependencies for the Streamlit app only (used by Streamlit Community Cloud).
+# The root requirements.txt is the full research environment (Jupyter, scraping, etc.).
+streamlit==1.66.0
+pandas==3.0.6
+numpy==2.5.4
+plotly==7.1.0
+pyarrow==26.0.0
+scikit-learn==1.9.1
+requests==2.34.2

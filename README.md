@@ -1,5 +1,30 @@
 # AI Applied to Football — Knowledge-Informed Playing Style Modelling & Explainable Manager–Player Compatibility
 
+> **Can a model measure whether a player "fits" Guardiola's, Klopp's or De Zerbi's playing style?**
+> This project builds an explainable answer from football knowledge and open data, and reports honestly how well it works.
+
+MIAD final project (Master in Artificial Intelligence Applied to Sports, Sports Data Campus / UCAM), graded **97.2/100**.
+
+<p align="center">
+  <img src="docs/images/app_main.png" alt="Streamlit app: player compatibility with each manager" width="85%">
+</p>
+
+## At a glance
+
+- **Football knowledge layer, built by hand:** FBref/Opta stats → 10 game concepts → 7 tactical dimensions, anchored on a published playing-style taxonomy (Plakias et al. 2025).
+- **11,132 player-seasons** from the big-5 leagues (2017/18 to 2022/23), z-scored by role.
+- **Every match attributed to the manager in charge on that date**, not that season (e.g. Klopp replaced Rodgers after 8 league games; De Zerbi replaced Potter after 4).
+- **Explainable compatibility:** cosine similarity between a player and each manager profile, broken down per tactical dimension in football language.
+- **Result:** 42.1% best-fit rate vs ~34% by chance (95% CI 37.8 to 46.2%, permutation p = 0.0002). Better than chance, far from decisive, and reported as such.
+- **Pressing intensity** is by far the strongest signal. Adjusted for possession, Guardiola's teams press marginally *more* than Klopp's.
+- **Method lesson:** the first result looked too clean. Two data bugs (fake zeros for missing data, a Serie A/Ligue 1 coverage gap) were found and fixed, which dropped the result to chance level (32.8%) before analyst-driven refinements brought it to 42.1%. Full trail in [`decision_log.md`](decision_log.md).
+
+## Screenshots
+
+| Manager profiles (radar) | Explainable score in football language |
+|---|---|
+| <img src="docs/images/manager_radar.png" alt="Radar of the three manager profiles" width="100%"> | <img src="docs/images/app_explanation.png" alt="Compatibility explanation in the app" width="100%"> |
+
 ## Run the app
 ```bash
 .venv/bin/streamlit run app/streamlit_app.py
