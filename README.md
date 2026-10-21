@@ -5,6 +5,8 @@
 
 MIAD final project (Master in Artificial Intelligence Applied to Sports, Sports Data Campus / UCAM), graded **97.2/100**.
 
+**Live app: [football-player-fit.streamlit.app](https://football-player-fit.streamlit.app)**
+
 <p align="center">
   <img src="docs/images/app_main.png" alt="Streamlit app: player compatibility with each manager" width="85%">
 </p>
